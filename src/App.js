@@ -1,16 +1,8 @@
 import "./App.css";
-import Image from "./assets/img.jpg";
+import Inclinecss from "./ep23_inlinecss";
 
 function App() {
-  let name = "nway nway wai";
-
-  return (
-    <div className="app">
-      <h1>Hello {name}</h1>
-      {/* <img src="/img.jpg" alt=""/> */}
-      {/* <img src={Image} alt="" /> */}
-    </div>
-  );
+  return <Inclinecss />;
 }
 
 export default App;
