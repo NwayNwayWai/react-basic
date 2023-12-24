@@ -1,8 +1,8 @@
 import "./App.css";
-import Inclinecss from "./ep23_inlinecss";
+import OnChangeEvent from "./ep25_onchange_event";
 
 function App() {
-  return <Inclinecss />;
+  return <OnChangeEvent />;
 }
 
 export default App;
