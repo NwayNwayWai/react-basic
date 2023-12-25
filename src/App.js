@@ -1,8 +1,8 @@
 import "./App.css";
-import OnChangeEvent from "./ep25_onchange_event";
+import OnSubmitEvent from "./ep27_onsubmit_event";
 
 function App() {
-  return <OnChangeEvent />;
+  return <OnSubmitEvent />;
 }
 
 export default App;

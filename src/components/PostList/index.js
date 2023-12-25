@@ -7,7 +7,8 @@ export default function PostsList({ posts }) {
     <div className="postList container">
       {posts.map((post) => (
         <div className={`single-post ${style.card} `} key={post.id}>
-          {post.title}
+          <h3>{post.title}</h3>
+          <h4>status - {post.status}</h4>
         </div>
       ))}
     </div>
